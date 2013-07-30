@@ -1,0 +1,2 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"><item android:id="@+id/startStopItem" android:title="Start" android:icon="@android:drawable/ic_media_play"></item>
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/horizHeaderLayout" android:orientation="horizontal"><ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/statusImageView"></ImageView>
+<ImageView android:layout_height="wrap_content" android:id="@+id/logoImageView" android:layout_gravity="center" android:layout_width="wrap_content" android:paddingTop="10px"></ImageView></LinearLayout>
+<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/statusTextView" android:textSize="10px"/>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"><TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableLayout" android:paddingTop="10px"></TableLayout></ScrollView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/simulatedTextView" android:text="Simulated market data" android:layout_marginTop="5px" android:textSize="10px"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/itemCountTextView" android:textSize="10px"></TextView>
+</LinearLayout>
+
+
+

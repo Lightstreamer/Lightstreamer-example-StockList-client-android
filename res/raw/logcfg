@@ -1,0 +1,71 @@
+############################################################
+#  	Global properties
+############################################################
+
+# "handlers" specifies a comma separated list of log Handler 
+# classes.  These handlers will be installed during VM startup.
+# Note that these classes must be on the system classpath.
+
+#handlers= java.util.logging.ConsoleHandler
+handlers= java.util.logging.FileHandler, java.util.logging.ConsoleHandler
+
+# Default global logging level.
+# This specifies which kinds of events are logged across
+# all loggers.  For any given facility this global level
+# can be overriden by a facility specific level
+# Note that the ConsoleHandler also has a separate level
+# setting to limit messages printed to the console.
+
+.level= FINER
+
+############################################################
+# Handler specific properties.
+# Describes specific configuration info for Handlers.
+############################################################
+
+# default file output is in user's home directory.
+java.util.logging.FileHandler.pattern = /sdcard/TUTTO/java%u.log
+java.util.logging.FileHandler.limit = 50000
+java.util.logging.FileHandler.count = 1
+java.util.logging.FileHandler.formatter = java.util.logging.XMLFormatter
+java.util.logging.FileHandler.level = FINER
+
+java.util.logging.ConsoleHandler.level = FINER
+java.util.logging.ConsoleHandler.formatter = java.util.logging.SimpleFormatter
+
+
+############################################################
+# Facility specific properties.
+# Provides extra control for each logger.
+############################################################
+
+############################################################
+# Loggers for Lightstreamer Java Client Library.
+# General rules:
+# - Exceptions thrown to the caller are not logged.
+# - Exceptions asynchronously notified to the client are logged at SEVERE level.
+# - INFO level is not used; all tracing is done at FINE, FINER and FINEST levels.
+# - Full exception stack traces are logged at FINER level.
+# - Pushing activity from Lightstreamer Server is logged at FINEST level.
+############################################################
+
+# Logs socket activity on Lightstreamer Server connections.
+# At FINER level, socket operations are logged.
+# At FINEST level, read/write data exchange is logged.
+com.lightstreamer.ls_client.stream.level = FINER
+
+# Logs requests to Lightstreamer Server and Server answers.
+# At FINE level, requests are logged.
+# At FINER level, request details are logged.
+# At FINEST level, events from the Server are logged.
+com.lightstreamer.ls_client.protocol.level = FINER
+
+# At FINE level, logs Server Session lifecycle events.
+com.lightstreamer.ls_client.session.level = FINER
+
+# Logs subscription requests received by the clients and the related updates.
+# At WARNING level, alert events from the Server are logged.
+# At FINE level, subscriptions and unsubscriptions are logged.
+# At FINER level, requests batching is logged.
+# At FINEST level, update details are logged.
+com.lightstreamer.ls_client.actions.level = FINER

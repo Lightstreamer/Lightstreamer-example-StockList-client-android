@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lightstreamer Demo</string>
+    <!-- the 10.0.2.2 IP represents the IP of the machine that hosts the emulator -->
+    <string name="host">http://10.0.2.2:8080</string>
+</resources>
