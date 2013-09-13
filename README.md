@@ -82,3 +82,4 @@ The factory configuration of Lightstreamer server already provides this adapter 
 # Lightstreamer Compatibility Notes #
 
 - Compatible with Lightstreamer Android Client API v. 1.0.2 or newer.
+- For Lightstreamer Allegro+, Presto, Vivace.
