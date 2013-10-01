@@ -7,10 +7,10 @@ This project contains a full example of a Java Swing application that employs th
 <table>
   <tr>
     <td style="text-align: left">
-      &nbsp;<img src="http://www.lightstreamer.com/img/demo/screen_android.png">&nbsp;
+      &nbsp;<img src="screen_android.png">&nbsp;
     </td>
     <td>
-      &nbsp;<img src="http://www.lightstreamer.com/img/demo/qr_android.png">&nbsp;
+      &nbsp;<img src="qr_android.png">&nbsp;
     </td>
   </tr>
 </table>
@@ -82,4 +82,4 @@ The factory configuration of Lightstreamer server already provides this adapter 
 # Lightstreamer Compatibility Notes #
 
 - Compatible with Lightstreamer Android Client API v. 1.0.2 or newer.
-- For Lightstreamer Allegro+, Presto, Vivace.
+- For Lightstreamer Allegro (+ Android Client API support), Presto, Vivace.
