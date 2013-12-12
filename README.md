@@ -1,8 +1,6 @@
-# Lightstreamer StockList Demo Client for Android #
+# Lightstreamer - Basic Stock-List Demo - Android Client #
 
 This project contains a full example of a Java Swing application that employs the Lightstreamer Android Client library.
-
-## Android Stock-List Demo ##
 
 <table>
   <tr>
@@ -15,7 +13,7 @@ This project contains a full example of a Java Swing application that employs th
   </tr>
 </table>
 
-This is a Java-for-Android version of the [Stock-List Demos](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript).<br>
+This is a Java-for-Android version of the [Lightstreamer - Basic Stock-List Demo - HTML client](https://github.com/Weswit/Lightstreamer-example-StockList-client-javascript#basic-stock-list-demo---html-client).<br>
 This app uses the <b>Android Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server. A simple user interface is implemented to display the real-time data received from Lightstreamer Server.<br>
 
 ## Dig the code ##
@@ -68,16 +66,16 @@ The factory configuration of Lightstreamer server already provides this adapter 
 
 ## Lightstreamer Adapters needed by this demo client ##
 
-* [Lightstreamer StockList Demo Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
-* [Lightstreamer Reusable Metadata Adapter in Java](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+* [Lightstreamer - Stock-List Demo - Java SE Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
+* [Lightstreamer - Reusable Metadata Adapters - Java SE Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
 
 ## Similar demo clients that may interest you ##
 
-* [Lightstreamer StockList Demo Client for JavaScript](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
-* [Lightstreamer StockList Demo Client for jQuery](https://github.com/Weswit/Lightstreamer-example-StockList-client-jquery)
-* [Lightstreamer StockList Demo Client for Dojo](https://github.com/Weswit/Lightstreamer-example-StockList-client-dojo)
-* [Lightstreamer StockList Demo Client for Java .NET](https://github.com/Weswit/Lightstreamer-example-StockList-client-dotnet)
-* [Lightstreamer Round-Trip Demo Client for JavaScript](https://github.com/Weswit/Lightstreamer-example-RoundTrip-client-javascript)
+* [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
+* [Lightstreamer - Basic Stock-List Demo - jQuery (jqGrid) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-jquery)
+* [Lightstreamer - Stock- List Demo Dojo Toolkit Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-dojo)
+* [Lightstreamer - Basic Stock-List Demo - .NET Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-dotnet)
+* [Lightstreamer - Round-Trip Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-RoundTrip-client-javascript)
 
 # Lightstreamer Compatibility Notes #
 
