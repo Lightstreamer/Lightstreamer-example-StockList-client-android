@@ -1,4 +1,5 @@
 # Lightstreamer - Basic Stock-List Demo - Android Client #
+<!-- START DESCRIPTION Basic Stock-List Demo -->
 
 This project contains a full example of a Java Swing application that employs the Lightstreamer Android Client library.
 
@@ -28,6 +29,8 @@ The application is divided into 6 main classes.
 Check out the sources for further explanations.
   
 <i>NOTE: not all the functionalities of the Lightstreamer Android Java client are exposed by the classes listed above. You can easily expand those functionalities using the [Android Client API](http://www.lightstreamer.com/docs/client_android_api/index.html) as a reference. If in trouble check out the [specific Lightstreamer forum](http://forums.lightstreamer.com/forumdisplay.php?33-Android-Client-API).</i>
+
+<!-- END DESCRIPTION Basic Stock-List Demo -->
 
 # Build #
 
@@ -65,9 +68,12 @@ The factory configuration of Lightstreamer server already provides this adapter 
 # See Also #
 
 ## Lightstreamer Adapters needed by this demo client ##
+<!-- START RELATED_ENTRIES -->
 
 * [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+
+<!-- END RELATED_ENTRIES -->
 
 ## Similar demo clients that may interest you ##
 
