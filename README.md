@@ -3,16 +3,7 @@
 
 This project contains a full example of a Java Swing application that employs the Lightstreamer Android Client library.
 
-<table>
-  <tr>
-    <td style="text-align: left">
-      &nbsp;<img src="screen_android.png">&nbsp;
-    </td>
-    <td>
-      &nbsp;<img src="qr_android.png">&nbsp;
-    </td>
-  </tr>
-</table>
+![screenshot](screen_android.png) ![QR](qr_android.png) To install the app from the Google Play Store, you can use the QR code to the left or go to [https://market.android.com/details?id=com.lightstreamer.demo.android](https://market.android.com/details?id=com.lightstreamer.demo.android)
 
 This is a Java-for-Android version of the [Lightstreamer - Basic Stock-List Demo - HTML client](https://github.com/Weswit/Lightstreamer-example-StockList-client-javascript#basic-stock-list-demo---html-client).<br>
 This app uses the <b>Android Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server. A simple user interface is implemented to display the real-time data received from Lightstreamer Server.<br>
