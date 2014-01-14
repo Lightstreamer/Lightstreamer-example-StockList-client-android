@@ -1,14 +1,15 @@
 # Lightstreamer - Basic Stock-List Demo - Android Client #
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-android -->
 
-This project contains a full example of a Java Swing application that employs the Lightstreamer Android Client library.
+This project contains a full example of a Java Swing application that employs the [Lightstreamer Android Client library](http://www.lightstreamer.com/docs/client_android_api/index.html).
 
-![screenshot](screen_android.png) ![QR](qr_android.png) To install the app from the Google Play Store, you can use the QR code to the left or go to [https://market.android.com/details?id=com.lightstreamer.demo.android](https://market.android.com/details?id=com.lightstreamer.demo.android)
+[![screenshot](screen_android_large.png)](https://market.android.com/details?id=com.lightstreamer.demo.android) ![QR](qr_android.png)<br>
+To install the app from the Google Play Store, you can use the QR code to the left or go to [https://market.android.com/details?id=com.lightstreamer.demo.android](https://market.android.com/details?id=com.lightstreamer.demo.android)
 
 This is a Java-for-Android version of the [Lightstreamer - Basic Stock-List Demo - HTML client](https://github.com/Weswit/Lightstreamer-example-StockList-client-javascript#basic-stock-list-demo---html-client).<br>
 This app uses the <b>Android Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server. A simple user interface is implemented to display the real-time data received from Lightstreamer Server.<br>
 
-## Dig the code ##
+## Dig the Code ##
 The application is divided into 6 main classes.
 * <b>AndroidUi.java</b>: this class handles the communication to the final Android user interface, like connection status and items updates.
 * <b>LightstreamerListener.java</b>: it's the interface implemented by AndroidUi, that receives both data and connection events from the Lightstreamer Client.
@@ -37,7 +38,7 @@ Otherwise, if you want to procede with the compilation of own version of this de
 * /lib<br>
   Drop here the ls-android-client.jar from the Lighstreamer SDK for Android Clients, to be used for the build process.
   
-## Getting started ##
+## Getting Started ##
 To directly import the project as is you need the Eclipse IDE with the Android SDK and Android ADT plugin installed: Go to [http://www.eclipse.org/](http://www.eclipse.org/) and download the latest Eclipse distribution in its "classic" package.<br>
 Go to http://developer.android.com/sdk/ and follow the instructions to install the Android SDK and ADT plugin in Eclipse.
 You may want to read more detailed information regarding the required ADT Eclipse plugin, including choosing the best version for your IDE, at: [http://developer.android.com/sdk/eclipse-adt.html](http://developer.android.com/sdk/eclipse-adt.html).
@@ -58,7 +59,7 @@ The factory configuration of Lightstreamer server already provides this adapter 
 
 # See Also #
 
-## Lightstreamer Adapters needed by this demo client ##
+## Lightstreamer Adapters Needed by This Demo Client ##
 <!-- START RELATED_ENTRIES -->
 
 * [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
@@ -66,7 +67,7 @@ The factory configuration of Lightstreamer server already provides this adapter 
 
 <!-- END RELATED_ENTRIES -->
 
-## Similar demo clients that may interest you ##
+## Related Projects ##
 
 * [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
 * [Lightstreamer - Basic Stock-List Demo - jQuery (jqGrid) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-jquery)
