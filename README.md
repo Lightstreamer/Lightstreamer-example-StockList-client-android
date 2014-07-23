@@ -61,7 +61,7 @@ To build your own version of the demo, instead of using the one provided in the 
 
 To directly import the project as is you need the Eclipse IDE with the Android SDK and Android ADT plugin installed: Go to [http://www.eclipse.org/](http://www.eclipse.org/) and download the latest Eclipse distribution in its "classic" package.<br>
 Go to http://developer.android.com/sdk/ and follow the instructions to install the Android SDK and ADT plugin in Eclipse.
-You may want to read more detailed information regarding the required ADT Eclipse plugin, including choosing the best version for your IDE, at: [http://developer.android.com/sdk/eclipse-adt.html](http://developer.android.com/sdk/eclipse-adt.html).
+You may want to read more detailed information regarding the required ADT Eclipse plugin, including choosing the best version for your IDE, at: [http://developer.android.com/sdk/eclipse-adt.html](http://developer.android.com/sdk/eclipse-adt.html).<br>
 <i>NOTE: You may also use the sources of the demo with another IDE or without any IDE but such approach is not covered in this readme. In any case you need at least the Android SDK.</i>
 <br>
 
