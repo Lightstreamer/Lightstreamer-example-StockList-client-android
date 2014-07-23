@@ -7,7 +7,7 @@ This project contains a full example of a Java Swing application that employs th
 ## Live Demo
 
 [![screenshot](screen_android_large.png)](https://market.android.com/details?id=com.lightstreamer.demo.android) ![QR](qr_android.png)<br>
-###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](https://market.android.com/details?id=com.lightstreamer.demo.android)<br>
+###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](https://market.android.com/details?id=com.lightstreamer.demo.android)
 (To install the app from the Google Play Store you can also use the above QR code)
 
 ## Details
@@ -33,7 +33,7 @@ Check out the sources for further explanations.
 
 ## Install
 
-If you want to install a version of this demo pointing to your local Lightstreamer Server and running into a [Adroid Virtual Device](http://developer.android.com/tools/devices/emulator.html), follow these steps:
+If you want to install a version of this demo pointing to your local Lightstreamer Server and running into an [Adroid Virtual Device](http://developer.android.com/tools/devices/emulator.html), follow these steps:
 
 * Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
@@ -46,9 +46,9 @@ If you want to install a version of this demo pointing to your local Lightstream
     ```
     adb install [.apk path]
     ```
-* Look up the demo on your virtual device and launch it.
+* Look up the demo in your virtual device and launch it.
 
-<i>note that the demo targets the Lightstreamer server @ http://10.0.2.2:8080 since 10.0.2.2 is the special alias to your host loopback interface.</i>
+<i>Note that the demo targets the Lightstreamer server @ http://10.0.2.2:8080 since 10.0.2.2 is the special alias to your host loopback interface.</i>
 
 ## Build
 
