@@ -1,8 +1,8 @@
-## Lightstreamer - Basic Stock-List Demo - Android Client
+# Lightstreamer - Basic Stock-List Demo - Android Client
 
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-android -->
 
-This project contains a full example of a Java Swing application that employs the [Lightstreamer Android Client library](http://www.lightstreamer.com/docs/client_android_api/index.html).
+This project contains a full example of an Android application that employs the [Lightstreamer Android Client library](http://www.lightstreamer.com/docs/client_android_api/index.html).
 
 ## Live Demo
 
