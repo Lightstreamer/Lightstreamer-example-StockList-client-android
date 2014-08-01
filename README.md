@@ -61,7 +61,7 @@ If you want to install a version of this demo pointing to your local Lightstream
 To build your own version of the demo, instead of using the one provided in the deploy.zip file from the Install section above, please consider that this example is comprised of the following folders:
 * `/src` Contains the sources to build the Java-for-Android application.
 * `/res` Contains the images and other resourced needed to the demo. 
-* `/lib` Drop here the ls-android-client.jar from the Lighstreamer SDK for Android Clients, to be used for the build process.
+* `/lib` Drop here the `ls-android-client.jar` from the Lighstreamer SDK for Android Clients, to be used for the build process.
   
 ### Getting Started
 
