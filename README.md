@@ -4,6 +4,12 @@
 
 This project contains a full example of an Android application that employs the [Lightstreamer Android Client library](http://www.lightstreamer.com/docs/client_android_api/index.html).
 
+## Note
+This demo was replaced by a new one that integrates push notifications: [Lightstreamer - MPN Stock-List Demo - Android Client](https://github.com/Weswit/Lightstreamer-example-MPNStockList-client-android)
+
+This demo is still mantained in order to support the [Lightstreamer - Basic Stock-List Demo - BlackBerry (Android Runtime) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-blackberry10-android)
+
+
 ## Live Demo
 
 [![screenshot](screen_android_large.png)](https://market.android.com/details?id=com.lightstreamer.demo.android) ![QR](qr_android.png)<br>
