@@ -7,14 +7,14 @@ This project contains a full example of an Android application that employs the 
 ## Note
 This demo was replaced by a new one that integrates push notifications: [Lightstreamer - MPN Stock-List Demo - Android Client](https://github.com/Weswit/Lightstreamer-example-MPNStockList-client-android)
 
-This demo is still mantained in order to support the [Lightstreamer - Basic Stock-List Demo - BlackBerry (Android Runtime) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-blackberry10-android)
+This demo is still maintained to support the [Lightstreamer - Basic Stock-List Demo - BlackBerry (Android Runtime) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-blackberry10-android)
 
 
 ## Live Demo
 
 [![screenshot](screen_android_large.png)](https://market.android.com/details?id=com.lightstreamer.demo.android) ![QR](qr_android.png)<br>
 ###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](https://market.android.com/details?id=com.lightstreamer.demo.android)
-(To install the app from the Google Play Store you can also use the above QR code)
+(To install the app from the Google Play Store, you can also use the above QR code)
 
 ## Details
 
@@ -25,7 +25,7 @@ This app uses the <b>Android Client API for Lightstreamer</b> to handle the comm
 
 The application is divided into 6 main classes.
 * `AndroidUi.java`: this class handles the communication to the final Android user interface, like connection status and items updates.
-* `LightstreamerListener.java`: it's the interface implemented by AndroidUi, that receives both data and connection events from the Lightstreamer Client.
+* `LightstreamerListener.java`: it's the interface implemented by AndroidUi that receives both data and connection events from the Lightstreamer Client.
 * `StockListConnectionListener.java`: it's the Lightstreamer ConnectionListener implementation that is passed to LSClient for receiving connection-related events. In this project, this object routes all the events to LightstreamerListener.
 * `StocklistHandyTableListener.java`: it's the Lightstreamer HandyTableListener implementation that is passed to LSClient for receiving data-related events. In this project, this object routes all the events to LightstreamerListener. 
 * `LightstreamerClient.java`: it's a wrapper class that encapsulates the Lightstreamer LSClient object, exposting start() and stop() methods.
@@ -33,7 +33,7 @@ The application is divided into 6 main classes.
   
 Check out the sources for further explanations.
   
-<i>NOTE: not all the functionalities of the Lightstreamer Android Java client are exposed by the classes listed above. You can easily expand those functionalities using the [Android Client API](http://www.lightstreamer.com/docs/client_android_api/index.html) as a reference. If in trouble check out the [specific Lightstreamer forum](http://forums.lightstreamer.com/forumdisplay.php?33-Android-Client-API).</i>
+<i>NOTE: Not all the functionalities of the Lightstreamer Android Java client are exposed by the classes listed above. You can easily expand those functionalities using the [Android Client API](http://www.lightstreamer.com/docs/client_android_api/index.html) as a reference. If in trouble, check out the [specific Lightstreamer forum](http://forums.lightstreamer.com/forumdisplay.php?33-Android-Client-API).</i>
 
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-android -->
 
@@ -46,7 +46,7 @@ If you want to install a version of this demo pointing to your local Lightstream
 * Download the `deploy.zip` file that you can find in the [deploy release](https://github.com/Weswit/Lightstreamer-example-StockList-client-android/releases) of this project and extract the `Android_StockListDemo_Basic.apk` file.
 * Install the `Android_StockListDemo_Basic.apk` in your [Android SDK](http://developer.android.com/sdk/index.html).
   * Execute the emulator (SDK Manager.exe->Tools->Manage AVDs...->New then Start)
-  * Start the console (ie Windows ), Run -> type cmd, and move to the platform-tools folder of SDK directory.
+  * Start the console (i.e., Windows ), Run -> type cmd, and move to the platform-tools folder of SDK directory.
   * Paste the APK file in the 'android-sdk\tools' or 'platform-tools' folder.
   * Then type the following command:
     ```
@@ -54,7 +54,7 @@ If you want to install a version of this demo pointing to your local Lightstream
     ```
 * Look up the demo in your virtual device and launch it.
 
-<i>Note that the demo targets the Lightstreamer server @ http://10.0.2.2:8080 since 10.0.2.2 is the special alias to your host loopback interface.</i>
+<i>Note that the demo targets the Lightstreamer server @ http://10.0.2.2:8080 because 10.0.2.2 is the special alias to your host loopback interface.</i>
 
 ## Build
 
@@ -65,18 +65,18 @@ To build your own version of the demo, instead of using the one provided in the 
   
 ### Getting Started
 
-To directly import the project as is you need the Eclipse IDE with the Android SDK and Android ADT plugin installed: Go to [http://www.eclipse.org/](http://www.eclipse.org/) and download the latest Eclipse distribution in its "classic" package.<br>
+To directly import the project as-is, you need the Eclipse IDE with the Android SDK and Android ADT plugin installed: Go to [http://www.eclipse.org/](http://www.eclipse.org/) and download the latest Eclipse distribution in its "classic" package.<br>
 Go to http://developer.android.com/sdk/ and follow the instructions to install the Android SDK and ADT plugin in Eclipse.
 You may want to read more detailed information regarding the required ADT Eclipse plugin, including choosing the best version for your IDE, at: [http://developer.android.com/sdk/eclipse-adt.html](http://developer.android.com/sdk/eclipse-adt.html).<br>
-<i>NOTE: You may also use the sources of the demo with another IDE or without any IDE but such approach is not covered in this readme. In any case you need at least the Android SDK.</i>
+<i>NOTE: You may also use the sources of the demo with another IDE or without any IDE but such approach is not covered in this readme. In any case, you need at least the Android SDK.</i>
 <br>
 
-You're now ready to import the project into eclipse, click on File->Import... then under General select Existing Projects into Workspace and choose the folder where the demo sources are.
+You're now ready to import the project into eclipse, click on File->Import... then under General, select Existing Projects into Workspace, and choose the folder where the demo sources are.
 
 ### Compile and Run
 
-From Eclipse, to compile and run the application right-click on the project in the Package Explorer and click Run As -> Android Application. If this is the first time an Android application is run, an extra window will appear asking to create a new Android Emulator Device "Android SDK and AVD Manager".
-In this case, click on the "New..." button on the right and fill the form entering a name for your Android emulated device, a target platform of your choice and a SD card size. If you are unsure, select Android 1.1 as target platform and 128Mb as SD card size. Once done, click the "Create AVD" button and close the "Android SDK and AVD Manager window" clicking on the "X" title-bar button. At this point, your Android demo is compiled and executed inside the newly created Android emulator device.
+From Eclipse, to compile and run the application, right-click on the project in the Package Explorer and click Run As -> Android Application. If this is the first time an Android application is run, an extra window will appear, asking to create a new Android Emulator Device "Android SDK and AVD Manager".
+In this case, click on the "New..." button on the right and fill the form entering a name for your Android emulated device, a target platform of your choice, and a SD card size. If you are unsure, select Android 1.1 as target platform and 128Mb as SD card size. Once done, click the "Create AVD" button and close the "Android SDK and AVD Manager window" clicking on the "X" title-bar button. At this point, your Android demo is compiled and executed inside the newly created Android emulator device.
 
 ### Deploy
   
