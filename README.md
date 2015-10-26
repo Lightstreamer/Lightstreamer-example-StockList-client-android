@@ -5,9 +5,9 @@
 This project contains a full example of an Android application that employs the [Lightstreamer Android Client library](http://www.lightstreamer.com/docs/client_android_api/index.html).
 
 ## Note
-This demo was replaced by a new one that integrates push notifications: [Lightstreamer - MPN Stock-List Demo - Android Client](https://github.com/Weswit/Lightstreamer-example-MPNStockList-client-android)
+This demo was replaced by a new one that integrates push notifications: [Lightstreamer - MPN Stock-List Demo - Android Client](https://github.com/Lightstreamer/Lightstreamer-example-MPNStockList-client-android)
 
-This demo is still maintained to support the [Lightstreamer - Basic Stock-List Demo - BlackBerry (Android Runtime) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-blackberry10-android)
+This demo is still maintained to support the [Lightstreamer - Basic Stock-List Demo - BlackBerry (Android Runtime) Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-blackberry10-android)
 
 
 ## Live Demo
@@ -18,7 +18,7 @@ This demo is still maintained to support the [Lightstreamer - Basic Stock-List D
 
 ## Details
 
-This is a Java-for-Android version of the [Lightstreamer - Basic Stock-List Demo - HTML client](https://github.com/Weswit/Lightstreamer-example-StockList-client-javascript#basic-stock-list-demo---html-client).<br>
+This is a Java-for-Android version of the [Lightstreamer - Basic Stock-List Demo - HTML client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-javascript#basic-stock-list-demo---html-client).<br>
 This app uses the <b>Android Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server. A simple user interface is implemented to display the real-time data received from Lightstreamer Server.<br>
 
 ### Dig the Code
@@ -41,9 +41,9 @@ Check out the sources for further explanations.
 
 If you want to install a version of this demo pointing to your local Lightstreamer Server and running into an [Adroid Virtual Device](http://developer.android.com/tools/devices/emulator.html), follow these steps:
 
-* Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
+* Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
-* Download the `deploy.zip` file that you can find in the [deploy release](https://github.com/Weswit/Lightstreamer-example-StockList-client-android/releases) of this project and extract the `Android_StockListDemo_Basic.apk` file.
+* Download the `deploy.zip` file that you can find in the [deploy release](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-android/releases) of this project and extract the `Android_StockListDemo_Basic.apk` file.
 * Install the `Android_StockListDemo_Basic.apk` in your [Android SDK](http://developer.android.com/sdk/index.html).
   * Execute the emulator (SDK Manager.exe->Tools->Manage AVDs...->New then Start)
   * Start the console (i.e., Windows ), Run -> type cmd, and move to the platform-tools folder of SDK directory.
@@ -81,8 +81,8 @@ In this case, click on the "New..." button on the right and fill the form enteri
 ### Deploy
   
 You may run the demo against your local server or using our online server at http://push.lightstreamer.com:80. The server to which the demo will connect to is configured in the `res/values/strings.xml` file.
-In the former case, the example requires that the [QUOTE_ADAPTER](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed in your local Lightstreamer server instance;
-the [LiteralBasedProvider](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java) is also needed, but it is already provided by Lightstreamer server.<br>
+In the former case, the example requires that the [QUOTE_ADAPTER](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java) has to be deployed in your local Lightstreamer server instance;
+the [LiteralBasedProvider](https://github.com/Lightstreamer/Lightstreamer-example-ReusableMetadata-adapter-java) is also needed, but it is already provided by Lightstreamer server.<br>
 
 ## See Also
 
@@ -90,18 +90,18 @@ the [LiteralBasedProvider](https://github.com/Weswit/Lightstreamer-example-Reusa
 
 <!-- START RELATED_ENTRIES -->
 
-* [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
-* [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+* [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java)
+* [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-ReusableMetadata-adapter-java)
 
 <!-- END RELATED_ENTRIES -->
 
 ### Related Projects
 
-* [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
-* [Lightstreamer - Basic Stock-List Demo - jQuery (jqGrid) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-jquery)
-* [Lightstreamer - Stock- List Demo Dojo Toolkit Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-dojo)
-* [Lightstreamer - Basic Stock-List Demo - .NET Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-dotnet)
-* [Lightstreamer - Round-Trip Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-RoundTrip-client-javascript)
+* [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-client-javascript)
+* [Lightstreamer - Basic Stock-List Demo - jQuery (jqGrid) Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-jquery)
+* [Lightstreamer - Stock- List Demo Dojo Toolkit Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-dojo)
+* [Lightstreamer - Basic Stock-List Demo - .NET Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-dotnet)
+* [Lightstreamer - Round-Trip Demo - HTML Client](https://github.com/Lightstreamer/Lightstreamer-example-RoundTrip-client-javascript)
 
 ## Lightstreamer Compatibility Notes
 
