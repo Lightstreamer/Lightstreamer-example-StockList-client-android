@@ -13,7 +13,7 @@ This demo is still maintained to support the [Lightstreamer - Basic Stock-List D
 ## Live Demo
 
 [![screenshot](screen_android_large.png)](https://market.android.com/details?id=com.lightstreamer.demo.android) ![QR](qr_android.png)<br>
-###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](https://market.android.com/details?id=com.lightstreamer.demo.android)
+### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](https://market.android.com/details?id=com.lightstreamer.demo.android)
 (To install the app from the Google Play Store, you can also use the above QR code)
 
 ## Details
