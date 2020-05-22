@@ -61,7 +61,9 @@ If you want to install a version of this demo pointing to your local Lightstream
 To build your own version of the demo, instead of using the one provided in the deploy.zip file from the Install section above, please consider that this example is comprised of the following folders:
 * `/src` Contains the sources to build the Java-for-Android application.
 * `/res` Contains the images and other resourced needed to the demo. 
-* `/lib` Drop here the `ls-android-client.jar` from the Lighstreamer SDK for Android Clients, to be used for the build process.
+* `/lib` Get the `ls-android-client.jar` file from the Lighstreamer SDK for Android Clients from [Lightstreamer distribution](http://www.lightstreamer.com/download) (see compatibility notes below) and put it here.
+  The version required by this demo can be found in Lightstreamer Allegro-Presto-Vivace version 5.1.2 to 6.0.
+
   
 ### Getting Started
 
@@ -106,4 +108,3 @@ the [LiteralBasedProvider](https://github.com/Lightstreamer/Lightstreamer-exampl
 ## Lightstreamer Compatibility Notes
 
 * Compatible with Lightstreamer Android Client API v. 1.0.2 to 1.2.
-* For Lightstreamer Allegro (+ Android Client API support), Presto, Vivace.
